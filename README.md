@@ -15,4 +15,4 @@ By default Knots nodes running a highly restrict relay policy that attempts to e
 <br><br>
 Knots node list was sourced from: https://bitnodes.io/api/v1/snapshots/latest/
 
-I2P Knots nodes are added manually, feel free to submit a PR if I am missing any.
+I2P nodes are added manually, feel free to submit a PR if I am missing any.
