@@ -17433,9 +17433,21 @@
         },
         {
             "version": 1,
+            "ban_created": 1750615391,
+            "banned_until": 4904215391,
+            "address": "qqyryeeg5wniepez2dbskhvkrwcjh5gvngdiwbgwuvi4dwxobjuq.b32.i2p"
+        },
+        {
+            "version": 1,
             "ban_created": 1750603605,
             "banned_until": 4904203605,
             "address": "rlrj52oe5fjed43vovovfiqiiuw56ri2qbdld2ol6g7wsqc26b6a.b32.i2p"
+        },
+        {
+            "version": 1,
+            "ban_created": 1750615420,
+            "banned_until": 4904215420,
+            "address": "sw3qz37rwupgw55tpupy7426yafqvpvozvrwxm4hduwqcf6rlfwa.b32.i2p"
         }
     ]
 }
