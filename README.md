@@ -10,7 +10,7 @@ If you would like to apply this banlist to your node:
 <br>
 <i></y></u><b>Why would I want to ban Knots nodes?</b></i>
 <br>
-Knots nodes attempt to encumber valid bitcoin transactions from propagating the Bitcoin network. This means that if your node is connected to a majority of knots nodes it will hinder your nodes ability to estimate fees properly as well as increase latency for block propagation. Both of which prevent your node from running optimally.
+Knots nodes attempt to encumber valid bitcoin transactions from propagating the Bitcoin network. This means that if your node is connected to a majority of knots nodes it will hinder your nodes ability to estimate fees properly as well as increase the time it takes to recieve new blocks. Both of which prevent your node from running optimally.
 
 <br><br>
 Knots node list was sourced from: https://bitnodes.io/api/v1/snapshots/latest/
