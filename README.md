@@ -1,4 +1,4 @@
-### Knots node list updated June 22 2025
+### Knots node list updated June 22, 2025
 
 If you would like to apply this banlist to your node:
 1. Stop your Bitcoin node.
