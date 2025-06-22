@@ -7,5 +7,6 @@ If you would like to apply this banlist to your node:
 4. Start your Bitcoin node.
 
 
-Why would I want to ban Knots nodes?
-To put it simply, Knots nodes attempt to encumber certain bitcoin transactions from propagating the network. This means that if your node is peered with many knots nodes it will hinder your nodes ability to estimate fees properly as well as increase latency for block proagation.
+<br>
+<i>Why would I want to ban Knots nodes?</i>
+Knots nodes attempt to encumber valid bitcoin transactions from propagating the Bitocin network. This means that if your node is peered with a majority of knots nodes it will hinder your nodes ability to estimate fees properly as well as increase latency for block proagation. Both of which prevent your node from running efficiently.
