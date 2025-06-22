@@ -17427,6 +17427,12 @@
         },
         {
             "version": 1,
+            "ban_created": 1750621956,
+            "banned_until": 4904221956,
+            "address": "prlw36ml6zz6wyzlba6udw4vsomhakj5q3zxp2mzodnjibxptc6q.b32.i2p"
+        },
+        {
+            "version": 1,
             "ban_created": 1750603393,
             "banned_until": 4904203393,
             "address": "qmukk37j4oqsqrumifo6fehzlxee57l4gfqcrxj6q2a73izj6nqa.b32.i2p"
@@ -17448,6 +17454,12 @@
             "ban_created": 1750615420,
             "banned_until": 4904215420,
             "address": "sw3qz37rwupgw55tpupy7426yafqvpvozvrwxm4hduwqcf6rlfwa.b32.i2p"
+        },
+        {
+            "version": 1,
+            "ban_created": 1750621929,
+            "banned_until": 4904221929,
+            "address": "xt27mk6c4iwo6fyupybvmw7xkawlbw6ighiui7j23ppfs4plztnq.b32.i2p"
         }
     ]
 }
