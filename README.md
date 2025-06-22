@@ -6,7 +6,7 @@ If you would like to apply this banlist to your node:
 3. Save and copy the "banlist.json" file from this repository to your Bitcoin directory.
 4. Start your Bitcoin node.
 
-Note: Using this banlist will override any existing banlist.json. If you already has entries in your banlist.json you want to preserve, simply add them to this new banlist.json.
+<i>Note: Using this banlist will override any existing banlist.json. If you already has entries in your banlist.json you want to preserve, simply add them to this new banlist.json.</i>
 
 <br>
 <i></y></u><b>Why would I want to ban Knots nodes?</b></i>
