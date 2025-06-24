@@ -1,4 +1,4 @@
-### Knots node list updated June 22, 2025
+### Knots banlist updated June 22, 2025
 ---
 <i></u><b>Why would I want to ban Knots nodes?</b></i>
 <br>
