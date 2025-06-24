@@ -124,7 +124,7 @@ output_data = {
 with open(banlist_file, "w", encoding="utf-8") as f:
     json.dump(output_data, f, indent=4)
 
-# Update previous_knots_nodes.txt with all addresses
+# Update knownknots.txt with all addresses
 with open(previous_file, "w", encoding="utf-8") as f:
     for address in ipv4_addresses + ipv6_addresses + onion_addresses + i2p_addresses + unknown_addresses:
         f.write(f"{address}\n")
