@@ -22,8 +22,8 @@ I2P nodes are added manually. Feel free to submit a PR for any missing nodes.
 ---
 ### Build Your Own:
 
-If you would like to build your own ```banlist.json``` based on the bitnodes API, you can run the provided ```knotsban.py``` script.
+If you would like to build your own ```banlist.json``` based on the bitnodes API, you can run the provided ```knotsban.py``` script. The script will fetch all current Knots nodes from bitnodes.io and output a ```banlist.json``` file.
 
-The script will fetch all current Knots nodes from bitnodes.io and output a ```banlist.json``` file.
+<i>Note: bitnodes.io does not find I2P Knots nodes, so any manually generated lists will not include them.</i>
 
-<i>Note: bitnodes.io does not list I2P Knots nodes, so any manually generated lists will not contain them. This can be mitigated by using the ```knownknots.txt``` file alongside the ```knotsban.py``` script. The script will comapare the list of addresses in ```knownknots.txt``` and output ```banlist.json``` containing all the previously known addresses combined with any new ones from the bitnodes API.</i>
+To mitigate this use ```knownknots.txt``` alongside the ```knotsban.py``` script. The script will compare the list of addresses in ```knownknots.txt``` and output a ```banlist.json``` file containing all the previously known addresses combined with any new ones found by the bitnodes API.
