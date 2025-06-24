@@ -1,4 +1,9 @@
 ### Knots banlist updated June 24, 2025
+Knots node address list is sourced from: https://bitnodes.io/api/v1/snapshots/latest/
+
+I2P and previously known nodes were added manually.
+Feel free to submit a PR for any missing nodes.
+
 ---
 <i></u><b>Why would I want to ban Knots nodes?</b></i>
 <br>
@@ -12,12 +17,7 @@ By default, Knots nodes implement a highly restrictive relay policy that attempt
 > 4. Start your Bitcoin node.
 
 <i>Note: This banlist file will overwrite any existing banlist file in your Bitcoin directory. If you already have a banlist file, simply copy its contents to this new one.</i>
-
-
 <br>
-Knots node address list was sourced from: https://bitnodes.io/api/v1/snapshots/latest/
-
-I2P nodes are added manually. Feel free to submit a PR for any missing nodes.
 
 ---
 ### Build Your Own:
