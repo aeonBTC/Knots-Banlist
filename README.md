@@ -5,24 +5,28 @@ I2P and previously known nodes were added manually.
 Feel free to submit a PR for any missing nodes.
 
 ---
-<i></u><b>Why would I want to ban Knots nodes?</b></i>
-<br>
-By default, Knots nodes implement a highly restrictive relay policy that attempts to prevent specific valid transactions from propagating through the Bitcoin network. This means that if your node is connected to a majority of Knots nodes, it will hinder your node’s ability to estimate fees properly and increase the time it takes for your node to receive new blocks
-<br>
 
-> <b>To apply this banlist to your node:</b>
-> 1. Stop your Bitcoin node.
-> 2. Navigate to your main Bitcoin directory (where your bitcoin.conf file is).
-> 3. Save and copy the ````banlist.json```` file from this repository to your Bitcoin directory.
-> 4. Start your Bitcoin node.
+<b>To apply this banlist to your node:</b>
+
+1. Stop your Bitcoin node.
+2. Navigate to your main Bitcoin directory (where your bitcoin.conf file is).
+3. Save and copy the ```banlist.json``` file from this repository to your Bitcoin directory.
+4. Start your Bitcoin node.
 
 <i>Note: This banlist file will overwrite any existing banlist file in your Bitcoin directory. If you already have a banlist file, simply copy its contents to this new one.</i>
+<br>
+
+
+---
+<b>Why would I want to ban Knots nodes?</b>
+<br>
+By default, Knots nodes implement a highly restrictive relay policy that attempts to prevent specific valid transactions from propagating through the Bitcoin network. This means that if your node is connected to a majority of Knots nodes, it will hinder your node’s ability to estimate fees properly and increase the time it takes for your node to receive new blocks
 <br>
 
 ---
 ### Build Your Own:
 
-If you would like to build your own ```banlist.json``` based on the bitnodes API, you can run the provided ```knotsban.py``` script. The script will fetch all current Knots nodes from bitnodes.io and output a ```banlist.json``` file.
+If you would like to build your own ```banlist.json``` based on the bitnodes.io API, you can run the provided ```knotsban.py``` script. The script will fetch all current Knots nodes from bitnodes.io and output a ```banlist.json``` file.
 
 <i>Note: bitnodes.io does not find I2P Knots nodes, so any manually generated lists will not include them.</i>
 
