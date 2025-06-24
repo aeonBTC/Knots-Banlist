@@ -27,6 +27,6 @@ By default, Knots nodes implement a highly restrictive relay policy that attempt
 
 If you would like to build your own ```banlist.json``` based on the bitnodes.io API, you can run the provided ```knotsban.py``` script. The script will fetch all current Knots nodes from bitnodes.io and output a ```banlist.json``` file.
 
-<i>Note: bitnodes.io does not find I2P Knots nodes, so any manually generated lists will not include them.</i>
+<i>Note: bitnodes.io does not list I2P Knots nodes, so any manually generated lists will not include them.</i>
 
-To mitigate this use ```knownknots.txt``` alongside the ```knotsban.py``` script. The script will compare the list of addresses in ```knownknots.txt``` and output a ```banlist.json``` file containing all the previously known addresses combined with any new ones found by the bitnodes API.
+To mitigate this, use ```knownknots.txt``` alongside the ```knotsban.py``` script. The script will compare the list of addresses in ```knownknots.txt``` and output a ```banlist.json``` file containing all the previously known addresses combined with any new ones found by the bitnodes API.
