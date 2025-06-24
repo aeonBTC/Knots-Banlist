@@ -8,15 +8,22 @@ By default, Knots nodes implement a highly restrictive relay policy that attempt
 > <b>To apply this banlist to your node:</b>
 > 1. Stop your Bitcoin node.
 > 2. Navigate to your main Bitcoin directory (where your bitcoin.conf file is).
-> 3. Save and copy the "banlist.json" file from this repository to your Bitcoin directory.
+> 3. Save and copy the ````banlist.json```` file from this repository to your Bitcoin directory.
 > 4. Start your Bitcoin node.
 
-<i>Note: Using this banlist will overwrite any existing banlist.json in your Bitcoin directory. If you already have entries in your banlist.json, simply copy them to this new banlist.</i>
-
-
+<i>Note: This banlist file will overwrite any existing banlist file in your Bitcoin directory. If you already have a banlist file, simply copy its contents to this new one.</i>
 
 
 <br>
-Knots node list was sourced from: https://bitnodes.io/api/v1/snapshots/latest/
+Knots node address list was sourced from: https://bitnodes.io/api/v1/snapshots/latest/
 
 I2P nodes are added manually. Feel free to submit a PR for any missing nodes.
+
+---
+### Build Your Own:
+
+If you would like to build your own ```banlist.json``` based on the bitnodes API, you can run the provided ```knotsban.py``` script.
+
+The script will fetch all current Knots nodes from bitnodes.io and output a ```banlist.json``` file.
+
+<i>Note: bitnodes.io does not list I2P Knots nodes, so any manually generated lists will not contain them. This can be mitigated by using the ```knownknots.txt``` file alongside the ```knotsban.py``` script. The script will comapare the list of addresses in ```knownknots.txt``` and output ```banlist.json``` containing all the previously known addresses combined with any new ones from the bitnodes API.</i>
