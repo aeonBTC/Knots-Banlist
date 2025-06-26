@@ -9,9 +9,11 @@ Feel free to submit a PR for any missing nodes.
 ### To apply this banlist to your node:
 
 1. Stop your Bitcoin node.
-2. Navigate to your main Bitcoin directory (where your bitcoin.conf file is).
+2. Navigate to your main Bitcoin directory (where your ```bitcoin.conf``` file is).
 3. Save and copy the ```banlist.json``` file from this repository to your Bitcoin directory.
 4. Start your Bitcoin node.
+
+Bitcoin nodes handle inbound Tor connections in such a way that will still allow Knots nodes to connect to you. In order to mitigate this set ```listenonion=0``` and ```i2pacceptincoming=1``` in your ```bitcoin.conf``` file.
 
 <i>Note: This banlist file will overwrite any existing banlist file in your Bitcoin directory. If you already have a banlist file, simply copy its contents to this new one.</i>
 <br>
