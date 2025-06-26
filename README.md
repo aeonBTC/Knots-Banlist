@@ -13,7 +13,7 @@ Feel free to submit a PR for any missing nodes.
 3. Save and copy the ```banlist.json``` file from this repository to your Bitcoin directory.
 4. Start your Bitcoin node.
 
-Bitcoin nodes handle inbound Tor connections in such a way that still allows Knots nodes to connect as inbound peers to your node. In order to prevent this set ```listenonion=0``` and ```i2pacceptincoming=1``` in your ```bitcoin.conf``` file.
+<i>Note: Bitcoin nodes handle inbound Tor connections in such a way that still allows Knots nodes to connect as inbound peers to your node. In order to prevent this set ```listenonion=0``` and ```i2pacceptincoming=1``` in your ```bitcoin.conf``` file.</i>
 
 <i>Note: This banlist file will overwrite any existing banlist file in your Bitcoin directory. If you already have a banlist file, simply copy its contents to this new one.</i>
 <br>
