@@ -19,7 +19,7 @@ Feel free to submit a PR for any missing nodes.
 ---
 ### Why would I want to ban Knots nodes?
 
-By default, Knots nodes implement a highly restrictive relay policy that attempts to prevent specific valid transactions from propagating through the Bitcoin network. This means that if your node is connected to a majority of Knots nodes, it will hinder your node’s ability to estimate fees properly and increase the time it takes for your node to receive new blocks
+By default, Knots nodes implement a highly restrictive relay policy that attempts to prevent specific valid transactions from propagating through the Bitcoin network. This means that if your node is connected to a majority of Knots nodes, it will hinder your node’s ability to estimate fees properly and increase the time it takes for your node to validate new blocks
 <br>
 
 ---
