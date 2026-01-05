@@ -3,7 +3,7 @@ Knots node address list is sourced from: https://bitnodes.io/api/v1/snapshots/la
 
 <i>Note: I2P nodes are not included in this list. I2P nodes generate new addresses for every inbound/outbound connection and are not easily banned.
 
-To mitigate this disable I2P connections on your node or open your ```bitcoin.conf``` file, add ```i2pacceptincoming=0``` and delete ```onlynet=i2p```.</i>
+To mitigate this open your ```bitcoin.conf``` file, add ```i2pacceptincoming=0``` and delete ```onlynet=i2p```.</i>
 
 ---
 
