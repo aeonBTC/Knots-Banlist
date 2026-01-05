@@ -7,6 +7,12 @@ To mitigate this disable I2P connections on your node or open your ```bitcoin.co
 
 ---
 
+### Why would I want to ban Knots nodes?
+
+By default, Knots nodes implement a highly restrictive relay policy that attempts to prevent specific valid transactions from propagating through the Bitcoin network. This means that if your node is connected to a majority of Knots nodes, it will hinder your node’s ability to estimate fees properly and increases the time it takes for your node to validate new blocks
+<br>
+
+---
 ### To apply this banlist to your node:
 
 1. Stop your Bitcoin node.
@@ -18,12 +24,7 @@ To mitigate this disable I2P connections on your node or open your ```bitcoin.co
 <br>
 
 ---
-### Why would I want to ban Knots nodes?
 
-By default, Knots nodes implement a highly restrictive relay policy that attempts to prevent specific valid transactions from propagating through the Bitcoin network. This means that if your node is connected to a majority of Knots nodes, it will hinder your node’s ability to estimate fees properly and increase the time it takes for your node to validate new blocks
-<br>
-
----
 ### Build Your Own:
 
 If you would like to build your own ```banlist.json``` based on the bitnodes.io API, you can run the provided ```knotsban.py``` script. The script will fetch all current Knots nodes from bitnodes.io and output a ```banlist.json``` file.
