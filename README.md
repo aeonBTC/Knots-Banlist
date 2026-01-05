@@ -15,10 +15,8 @@ By default, Knots nodes implement a highly restrictive relay policy that attempt
 ---
 ### To apply this banlist to your node:
 
-1. Stop your Bitcoin node.
-2. Navigate to your main Bitcoin directory (where your ```bitcoin.conf``` file is).
-3. Save and copy the ```banlist.json``` file from this repository to your Bitcoin directory.
-4. Start your Bitcoin node.
+1. Navigate to your main Bitcoin directory (where your ```bitcoin.conf``` file is).
+2. Save and copy the ```banlist.json``` file from this repository to your Bitcoin directory.
 
 <i>Note: This banlist file will overwrite any existing banlist file in your Bitcoin directory. If you already have a banlist file, simply copy its contents to this new one.</i>
 <br>
