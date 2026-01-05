@@ -1,8 +1,9 @@
 ### Knots banlist updated January 5, 2026
 Knots node address list is sourced from: https://bitnodes.io/api/v1/snapshots/latest/
 
-I2P and previously known nodes were added manually.
-Feel free to submit a PR for any missing nodes.
+<i>Note: I2P nodes are not included in this list. I2P nodes generate new addresses for every inbound/outbound connection and are not easily banned.
+
+To mitigate this disable I2P connections on your node or open your ```bitcoin.conf``` file, add ```i2pacceptincoming=0``` and delete ```onlynet=i2p```.</i>
 
 ---
 
@@ -27,6 +28,4 @@ By default, Knots nodes implement a highly restrictive relay policy that attempt
 
 If you would like to build your own ```banlist.json``` based on the bitnodes.io API, you can run the provided ```knotsban.py``` script. The script will fetch all current Knots nodes from bitnodes.io and output a ```banlist.json``` file.
 
-<i>Note: bitnodes.io does not list I2P Knots nodes, so any manually generated lists will not include them.</i>
 
-To mitigate this, use ```knownknots.txt``` alongside the ```knotsban.py``` script. The script will compare the list of addresses in ```knownknots.txt``` and output a ```banlist.json``` file containing all the previously known addresses combined with any new ones found by the bitnodes API.
