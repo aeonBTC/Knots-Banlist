@@ -9,7 +9,7 @@ To mitigate this open your ```bitcoin.conf``` file, add ```i2pacceptincoming=0``
 
 ### Why would I want to ban Knots nodes?
 
-By default, Knots nodes implement a highly restrictive relay policy that attempts to prevent specific valid transactions from propagating through the Bitcoin network. This means that if your node is connected to a majority of Knots nodes, it will hinder your node’s ability to estimate fees properly and increases the time it takes for your node to validate new blocks
+By default, Knots nodes implement a highly restrictive relay policy that attempts to prevent valid bitcoin transactions from propagating through the Bitcoin network. This means that if your node is connected to a majority of Knots nodes, it will increase the time it takes for your node to validate and propagate new blocks, as well as hinder your node’s ability to estimate fees properly.
 <br>
 
 ---
