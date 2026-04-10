@@ -1,4 +1,4 @@
-### Knots banlist updated March 7, 2026
+### Knots banlist updated April 9, 2026
 Knots node address list is sourced from: https://bitnodes.io/api/v1/snapshots/latest/
 
 <i>Note: I2P nodes are not included in this list. I2P nodes generate new addresses for every inbound/outbound connection and are not easily banned.
